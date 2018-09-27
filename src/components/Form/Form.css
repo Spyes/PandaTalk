@@ -1,0 +1,33 @@
+.Form {
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Form > input,
+.Form > textarea {
+  margin-bottom: 10px;
+}
+
+.Form > button {
+    background-color: #008CBA;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.Form > button:hover {
+  background-color: #01A3D8;
+}
+
+.Form > button:active {
+  background-color: #008CBA;
+}

@@ -1,0 +1,27 @@
+.Comment {
+  display: flex;
+  margin-top: 20px;
+}
+
+.Comment > .avatar > img {
+  width: 48px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Comment > .content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 6px;
+  font-size: 0.8em;
+}
+
+.Comment >.content > .email {
+  font-weight: bold;
+}
+
+.Comment > .content > .body {
+  color: #9c9c9c;
+  margin-top: 5px;
+}

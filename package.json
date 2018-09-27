@@ -1,0 +1,25 @@
+{
+  "name": "pandatalk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "md5": "^2.2.1",
+    "mongoose": "^5.2.17",
+    "react": "^16.5.2",
+    "react-debounce-input": "^3.2.0",
+    "react-dom": "^16.5.2",
+    "react-modal": "^3.6.1",
+    "react-proptypes": "^1.0.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node ./server",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
